@@ -1,0 +1,54 @@
+@import url(/assets/css/head.css);
+@import url(/assets/css/head.css.map);
+
+.nav{
+    background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: 20%;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-position: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.navitem{
+    list-style: none;
+    padding: 10px;
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 700;
+        span{
+            color: #d73e4d;
+        }
+    }
+}
+.text{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 20% 0;
+    h2{
+    color: #fff;
+    font-size: 60px;
+    padding: 10px;
+    }
+    h6{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .head-btn{
+        padding: 50px;
+        a{
+            text-decoration: none;
+            color: #fff;
+            padding: 20px;
+            border: 1px solid #d73e4d;
+        }
+        a:hover{
+            background-color: #d73e4d;
+            transition: 1s;
+        }
+
+    }
+}
